@@ -19,7 +19,7 @@ void main(List<String> args) {
 
 Future<void> dcat(List<String> paths, {bool showLineNumbers = false}) async {
   if (paths.isEmpty) {
-    print('type exit to quit.');
+    print('Please type exit to quit.');
     while (true) {
       stdout.write(
           '> '); 
@@ -27,7 +27,7 @@ Future<void> dcat(List<String> paths, {bool showLineNumbers = false}) async {
       print('${line}\n');
 
       if (line?.toLowerCase() == 'exit') {
-        print('bye.');
+        print('Byebye.');
         break;
       }
     }
