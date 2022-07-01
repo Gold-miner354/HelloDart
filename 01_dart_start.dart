@@ -9,7 +9,7 @@ void variables()
     'tags': ['saturn'],
      'url': '//path/to/saturn.jpg'
     };
-    print('name is &name,year is $year,antennaDiameter is $antennaDiameter,flybyObjects is $flybyObjects,image is $image');
+    print('name is $name\nyear is $year\nantennaDiameter is $antennaDiameter\nflybyObjects is $flybyObjects\nimage is $image\n');
 }
 
 //流程控制语句https://dart.cn/samples#control-flow-statements
@@ -41,6 +41,7 @@ int fibonacci(int n) {
 
 void main() {
   variables();
+  flow_control();
   var result = fibonacci(20);
-  print('fibonacci result is $result');
+  print('20th fibonacci result is $result');
 }
